@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="enter your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="enter your email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="enter your password"><br><br>
+
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="confirm your password"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">           
+        <label for="male">Male</label><br>      
+        <input type="radio" id="female" name="gender" value="female">   
+        <label for="female">Female</label><br><br>  
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <video controls width="320" height="240">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video><br><br>
+
+        <input type="submit" value="Register">
+
+        
+    </form>
+   
+</body>
+</html>
