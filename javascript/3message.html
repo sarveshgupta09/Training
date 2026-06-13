@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function message(){
+            alert("you got HACKED!!!!")
+        }
+        const buttonclick =()=>{
+              document.getElementById("dateandtime").innerHTML="Time is :"+ new Date()
+        }
+        function printname(){
+            const myname1=String(document.getElementById("myname1").value())
+            document.getElementById("name1").innerHTML=myname1
+        }
+
+       
+    </script>
+</head>
+<body>
+    <button onmouseover="message()">please click me!</button>
+    <button onclick="buttonclick()">Date and Time</button>
+    <p id="dateandtime"></p>
+    <input type="text" name="" id="myname1">
+    <button onclick="printname()">Add name</button>
+    <p id="name1"></p>
+    
+</body>
+</html>
